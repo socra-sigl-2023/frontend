@@ -1,0 +1,14 @@
+body {
+  color: #526066;
+}
+
+h2,
+h3 {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.6em;
+}

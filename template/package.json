@@ -1,0 +1,42 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Socrate",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.pro.js",
+    "start": "webpack serve --open --config config/webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffauchille/socra-group30.git"
+  },
+  "keywords": [
+    "socrate"
+  ],
+  "author": "ffauchille",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffauchille/socra-group30/issues"
+  },
+  "homepage": "https://github.com/ffauchille/socra-group30#readme"
+}

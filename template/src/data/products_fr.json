@@ -1,0 +1,812 @@
+[
+  {
+    "name": "Granny Smith",
+    "id": 1,
+    "price": 3.51,
+    "carbonTax": 1.23,
+    "category": "Pomme",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Apple/Granny-Smith/Granny-Smith_Iconic.jpg",
+    "description": "Granny Smith est une pomme verte avec une pulpe blanche et ferme et une acidité claire dans la saveur.\n"
+  },
+  {
+    "name": "Dame rose",
+    "id": 2,
+    "price": 4.37,
+    "carbonTax": 1.83,
+    "category": "Pomme",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Apple/Pink-Lady/Pink-Lady_Iconic.jpg",
+    "description": "Pink Lady rappelle la Royal Gala, même si c'est une pomme encore plus sucrée et croustillante.\n"
+  },
+  {
+    "name": "Rouge-Délicieux",
+    "id": 3,
+    "price": 3.37,
+    "carbonTax": 2.90,
+    "category": "Pomme",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Apple/Red-Delicious/Red-Delicious_Iconic.jpg",
+    "description": "Red Delicious est une pomme rouge foncé avec une pulpe relativement molle et un goût sucré.\n"
+  },
+  {
+    "name": "Royal-Gala",
+    "id": 4,
+    "price": 4.67,
+    "carbonTax": 3.04,
+    "category": "Pomme",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Apple/Royal-Gala/Royal-Gala_Iconic.jpg",
+    "description": "La Royal Gala est une pomme croustillante et très juteuse, à la pulpe jaune-blanche. La peau est fine avec une couleur rouge jaune tachetée.\n"
+  },
+  {
+    "name": "Avocat",
+    "id": 5,
+    "price": 4.89,
+    "carbonTax": 1.00,
+    "category": "Avocat",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Avocado/Avocado_Iconic.jpg",
+    "description": "L'avocat est un fruit avec un noyau clair au milieu. La pulpe est jaune clair et la peau peut varier du vert clair au vert foncé, presque noir. L'avocat convient pour les entrées, les salades et comme ingrédient dans le guacamole.\n"
+  },
+  {
+    "name": "banane",
+    "id": 6,
+    "price": 5.29,
+    "carbonTax": 2.89,
+    "category": "banane",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Banana/Banana_Iconic.jpg",
+    "description": "Une banane cultivée écologiquement. Les bananes sont bonnes comme collations. La banane est sensible à la température, très sensible à la déshydratation, à l'éthylène et aux dommages causés par le froid. Conserver à température ambiante ou au frais, jamais au réfrigérateur.\n"
+  },
+  {
+    "name": "kiwi",
+    "id": 7,
+    "price": 3.56,
+    "carbonTax": 2.71,
+    "category": "kiwi",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Kiwi/Kiwi_Iconic.jpg",
+    "description": "Le kiwi, ou groseilles chinoises, comme on l'appelle aussi, a un goût sucré avec une acidité claire. Le fruit est riche en vitamine C.\n"
+  },
+  {
+    "name": "Citron",
+    "id": 8,
+    "price": 0.20,
+    "carbonTax": 1.27,
+    "category": "Citron",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Lemon/Lemon_Iconic.jpg",
+    "description": "Le citron est utilisé comme arôme dans les aliments et les boissons et a un goût très acidulé et acide.\n"
+  },
+  {
+    "name": "Citron vert",
+    "id": 9,
+    "price": 4.87,
+    "carbonTax": 2.56,
+    "category": "Citron",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Lime/Lime_Iconic.jpg",
+    "description": "Le fruit du citron vert, comme le citron, a un goût acide, à la différence que le citron vert est plus juteux et savoureux que le citron. C'est principalement le jus que vous utilisez mais aussi la coque qui peut être utilisée.\n"
+  },
+  {
+    "name": "Mangue",
+    "id": 10,
+    "price": 1.32,
+    "carbonTax": 1.84,
+    "category": "Mangue",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Mango/Mango_Iconic.jpg",
+    "description": "La mangue a un goût frais, puissant et sucré, mais une nuance exotique particulière. À l'intérieur, il y a un gros noyau ovale dans lequel la pulpe est cultivée. Cela rend la meilleure façon de couper la mangue avec la coque. Diviser le fruit en coupant le long des deux côtés du noyau. La mangue peut être consommée nature ou en desserts, entrées et plats principaux.\n"
+  },
+  {
+    "name": "Cantaloup",
+    "id": 11,
+    "price": 0.69,
+    "carbonTax": 3.47,
+    "category": "Melon",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Melon/Cantaloupe/Cantaloupe_Iconic.jpg",
+    "description": "Le melon cantaloup est un melon de sucre plutôt petit et rond, avec une coquille à motifs de mailles jaune verdâtre. La pulpe est de couleur orange avec un goût juteux et sucré.\n"
+  },
+  {
+    "name": "Galia-Melon",
+    "id": 12,
+    "price": 0.63,
+    "carbonTax": 2.91,
+    "category": "Melon",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Melon/Galia-Melon/Galia-Melon_Iconic.jpg",
+    "description": "Le melon Galia est un petit melon de sucre rond avec une coque à motifs de mailles vert jaunâtre, orange ou marron clair. La pulpe est ferme et juteuse, avec une couleur blanc crème à vert jaunâtre et une saveur douce et riche.\n"
+  },
+  {
+    "name": "Melon-Miel",
+    "id": 13,
+    "price": 2.56,
+    "carbonTax": 1.93,
+    "category": "Melon",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Melon/Honeydew-Melon/Honeydew-Melon_Iconic.jpg",
+    "description": "Le melon miel est une pastèque de forme ovale, avec une coque jaune. La pulpe est jaune clair crémeuse avec un goût juteux, sucré et frais, qui est plus doux que les autres melons.\n"
+  },
+  {
+    "name": "Pastèque",
+    "id": 14,
+    "price": 1.27,
+    "carbonTax": 2.40,
+    "category": "Melon",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Melon/Watermelon/Watermelon_Iconic.jpg",
+    "description": "Le melon d'eau est plus juteux que les melons sucrés et a une peau ronde avec une couleur de base vert clair, avec de longues rayures vert foncé. La pulpe est très juteuse, douce et sucrée, et se produit avec et sans noyaux.\n"
+  },
+  {
+    "name": "NECTARINES",
+    "id": 15,
+    "price": 4.69,
+    "carbonTax": 3.74,
+    "category": "NECTARINES",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Nectarine/Nectarine_Iconic.jpg",
+    "description": "La nectarine est un fruit à noyau avec une peau lisse et une pulpe jaune ou orange, un peu plus ferme que la pêche. La nectarine convient à la consommation naturelle mais peut également être utilisée pour la pâtisserie, la marmelade et la confiture.\n"
+  },
+  {
+    "name": "Orange",
+    "id": 16,
+    "price": 5.94,
+    "carbonTax": 3.64,
+    "category": "Orange",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Orange/Orange_Iconic.jpg",
+    "description": "Il existe de nombreux types d'oranges qui mûrissent et sont vendues à différentes périodes de l'année. L'orange est une source très importante de vitamine C et les vitamines sont mieux conservées si le fruit est consommé naturellement.\n"
+  },
+  {
+    "name": "Papaye",
+    "id": 17,
+    "price": 4.85,
+    "carbonTax": 2.28,
+    "category": "Papaye",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Papaya/Papaya_Iconic.jpg",
+    "description": "La papaye a une pulpe rose saumon qui a une texture beurrée. Le fruit est riche en vitamine A et C.\n"
+  },
+  {
+    "name": "Fruit de la passion",
+    "id": 18,
+    "price": 2.38,
+    "carbonTax": 1.02,
+    "category": "Fruit de la passion",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Passion-Fruit/Passion-Fruit_Iconic.jpg",
+    "description": "Le fruit de la passion est un petit fruit rond ou ovale à coque bosselée jaune ou violet brunâtre foncé. L'intérieur du fruit de la passion se compose de nombreux petits noyaux comestibles entourés d'une pulpe succulente. Le goût est riche et frais, et rappelle la framboise et l'orange.\n"
+  },
+  {
+    "name": "La pêche",
+    "id": 19,
+    "price": 3.67,
+    "carbonTax": 1.33,
+    "category": "La pêche",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Peach/Peach_Iconic.jpg",
+    "description": "La pêche est un fruit à noyau avec une pulpe jaune ou orange et une coque veloutée. Convient pour manger naturellement mais peut également être utilisé pour la pâtisserie, la marmelade et la confiture.\n"
+  },
+  {
+    "name": "Anjou",
+    "id": 20,
+    "price": 0.09,
+    "carbonTax": 3.85,
+    "category": "Poire",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Pear/Anjou/Anjou_Iconic.jpg",
+    "description": "La poire d'Anjou est une poire classique au pédoncule arrondi avec une fine coque vert jaunâtre. La pulpe est juteuse et a un goût sucré et agréable. L'Anjou est un excellent fruit de table qui s'intègre également dans les pâtisseries, alors plutôt vert.\n\n"
+  },
+  {
+    "name": "Conférence",
+    "id": 21,
+    "price": 3.30,
+    "carbonTax": 1.76,
+    "category": "Poire",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Pear/Conference/Conference_Iconic.jpg",
+    "description": "Conference est une poire de taille moyenne avec une forme de bouteille longue et effilée et une base arrondie. Pour la couleur, la poire Conférence est jaune verdâtre clair avec des taches brun doré. Les poires ont plus de goût lorsqu'elles sont vraiment mûres. Convient pour les desserts, plateau de fromages ou pour manger tel quel.\n"
+  },
+  {
+    "name": "kaiser",
+    "id": 22,
+    "price": 3.72,
+    "carbonTax": 3.97,
+    "category": "Poire",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Pear/Kaiser/Kaiser_Iconic.jpg",
+    "description": "La poire Kaiser est en forme de goutte avec une coquille mate, d'épaisseur moyenne, jaune-brun flamboyant ou brunâtre. La pulpe blanc jaunâtre est croustillante, juteuse et sucrée, avec un peu d'acide frais. Les poires Kaiser se marient très bien avec les fromages de dessert et le vin, mais elles sont également bonnes à cuisiner, car elles conservent bien leur forme.\n"
+  },
+  {
+    "name": "Ananas",
+    "id": 23,
+    "price": 2.89,
+    "carbonTax": 2.34,
+    "category": "Ananas",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Pineapple/Pineapple_Iconic.jpg",
+    "description": "L'ananas convient bien pour être consommé naturellement, par exemple dans les desserts et les salades de fruits. N'oubliez pas de retirer la bûche du milieu.\n"
+  },
+  {
+    "name": "Prune",
+    "id": 24,
+    "price": 1.89,
+    "carbonTax": 1.30,
+    "category": "Prune",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Plum/Plum_Iconic.jpg",
+    "description": "Les prunes mûres ont une pulpe douce et juteuse au goût sucré. Convient pour être mangé naturellement, mais est également utilisé pour les conserves et les pâtisseries.\n"
+  },
+  {
+    "name": "Grenade",
+    "id": 25,
+    "price": 4.42,
+    "carbonTax": 1.51,
+    "category": "Grenade",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Pomegranate/Pomegranate_Iconic.jpg",
+    "description": "La grenade a un goût sucré, doux et rafraîchissant, ce qui la rend idéale pour les salades et les desserts. Ce ne sont que les noyaux du fruit que vous mangez. Ceux-ci sont retirés en coupant d'abord autour de la pomme sans détruire le noyau. Tournez ensuite les deux moitiés dans des directions opposées jusqu'à ce qu'elles se desserrent. Enfin, les amandes sont détachées en frappant une plaque de bois sur la coque de la moitié, de préférence au-dessus d'un bol.\n"
+  },
+  {
+    "name": "Pamplemousse Rouge",
+    "id": 26,
+    "price": 2.91,
+    "carbonTax": 1.88,
+    "category": "Pamplemousse Rouge",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Red-Grapefruit/Red-Grapefruit_Iconic.jpg",
+    "description": "Le pamplemousse rouge a une pulpe rouge et une peau légèrement rosée. Le goût est typiquement amer, mais en même temps frais et acide. Le pamplemousse rouge est plus sucré que le pamplemousse blond.\n"
+  },
+  {
+    "name": "Satsumas",
+    "id": 27,
+    "price": 3.66,
+    "carbonTax": 2.73,
+    "category": "Satsumas",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Satsumas/Satsumas_Iconic.jpg",
+    "description": "Satsumas est un type d'agrumes doux et petit. Le fruit est populaire comme collation.\n"
+  },
+  {
+    "name": "Bravo-jus de pomme",
+    "id": 28,
+    "price": 3.36,
+    "carbonTax": 3.07,
+    "category": "Jus",
+    "categoryId": 3,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/Bravo-Apple-Juice/Bravo-Apple-Juice_Iconic.jpg",
+    "description": "Jus de pomme prêt à boire fait de concentré. Goût frais et acidulé. Convient à la table du petit-déjeuner, comme désaltérant et boisson de repas.\n"
+  },
+  {
+    "name": "Bravo-Orange-jus",
+    "id": 29,
+    "price": 0.89,
+    "carbonTax": 2.75,
+    "category": "Jus",
+    "categoryId": 3,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/Bravo-Orange-Juice/Bravo-Orange-Juice_Iconic.jpg",
+    "description": "Jus d'orange prêt à boire fait de concentré. Goût frais et acidulé. Convient à la table du petit-déjeuner, comme désaltérant et boisson de repas. Sans pulpe.\n"
+  },
+  {
+    "name": "Bonjour-jus-de-pomme",
+    "id": 30,
+    "price": 2.46,
+    "carbonTax": 3.34,
+    "category": "Jus",
+    "categoryId": 3,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/God-Morgon-Apple-Juice/God-Morgon-Apple-Juice_Iconic.jpg",
+    "description": "God Morning Apple n'est pas filtré, ce qui donne un jus plus riche et plus délicieux avec une vraie saveur de pomme.\n"
+  },
+  {
+    "name": "Bon-Matin-Jus-d'Orange",
+    "id": 31,
+    "price": 5.88,
+    "carbonTax": 2.90,
+    "category": "Jus",
+    "categoryId": 3,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/God-Morgon-Orange-Juice/God-Morgon-Orange-Juice_Iconic.jpg",
+    "description": "God Morgon Orange est pressé par des oranges séchées au soleil et cueillies à la main. Le paquet contient du jus de 2 kilogrammes d'oranges !\n"
+  },
+  {
+    "name": "Jus de Pamplemousse",
+    "id": 32,
+    "price": 2.20,
+    "carbonTax": 3.66,
+    "category": "Jus",
+    "categoryId": 3,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/God-Morgon-Orange-Red-Grapefruit-Juice/God-Morgon-Orange-Red-Grapefruit-Juice_Iconic.jpg",
+    "description": "God Morning Orange / Red Grapefruit est un mélange frais de jus d'orange douce et de délicieux pamplemousse rouge frais.\n"
+  },
+  {
+    "name": "Dieu-matin-rouge-jus-de-pamplemousse",
+    "id": 33,
+    "price": 3.03,
+    "carbonTax": 2.14,
+    "category": "Jus",
+    "categoryId": 3,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/God-Morgon-Red-Grapefruit-Juice/God-Morgon-Red-Grapefruit-Juice_Iconic.jpg",
+    "description": "Le pamplemousse rouge God Morning est un véritable coup de fouet vitaminé - doux, riche en goût et aussi rafraîchissant que seul le pamplemousse rouge peut l'être.\n"
+  },
+  {
+    "name": "Jus de pomme Tropicana",
+    "id": 34,
+    "price": 0.82,
+    "carbonTax": 3.25,
+    "category": "Jus",
+    "categoryId": 3,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/Tropicana-Apple-Juice/Tropicana-Apple-Juice_Iconic.jpg",
+    "description": "Tropicana Apple est un jus prêt à boire avec de la pulpe pressée sur des pommes. Pas de concentré. Légèrement pasteurisé.\n"
+  },
+  {
+    "name": "Tropicana-Golden-Pamplemousse",
+    "id": 35,
+    "price": 5.77,
+    "carbonTax": 2.64,
+    "category": "Jus",
+    "categoryId": 3,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/Tropicana-Golden-Grapefruit/Tropicana-Golden-Grapefruit_Iconic.jpg",
+    "description": "Tropicana Golden Grape est un jus prêt à boire à la pulpe pressée sur du pamplemousse. Pas de concentré. Légèrement pasteurisé.\n"
+  },
+  {
+    "name": "Tropicana-jus-lisse",
+    "id": 36,
+    "price": 0.27,
+    "carbonTax": 3.61,
+    "category": "Jus",
+    "categoryId": 3,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/Tropicana-Juice-Smooth/Tropicana-Juice-Smooth_Iconic.jpg",
+    "description": "Tropicana Smooth Style est un jus prêt à boire sans pulpe pressé sur des oranges séchées au soleil. Pas de concentré. Légèrement pasteurisé.\n"
+  },
+  {
+    "name": "Tropicana-Mandarin-Matin",
+    "id": 37,
+    "price": 0.45,
+    "carbonTax": 3.03,
+    "category": "Jus",
+    "categoryId": 3,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/Tropicana-Mandarin-Morning/Tropicana-Mandarin-Morning_Iconic.jpg",
+    "description": "Tropicana Mandarin Morning est un jus prêt à boire sans pulpe pressé sur l'orange, la mandarine et le raisin. Pas de concentré. Légèrement pasteurisé.\n"
+  },
+  {
+    "name": "Arla-Ecological-Mi-Fat-Milk",
+    "id": 38,
+    "price": 3.85,
+    "carbonTax": 1.80,
+    "category": "Lait",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Milk/Arla-Ecological-Medium-Fat-Milk/Arla-Ecological-Medium-Fat-Milk_Iconic.jpg",
+    "description": "Lait frais écrémé à base de lait suédois issu d'Arlagårdar bio. Le lait écrémé a une délicieuse saveur pleine et est un choix populaire pour les céréales du petit-déjeuner, le porridge ou comme boisson pour le repas. Le lait est une source naturelle, par exemple, de protéines, de calcium et de vitamine B12. Les protéines contribuent à la construction musculaire et le calcium est nécessaire pour maintenir une structure osseuse normale. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois. Le nouveau carton brun a un impact climatique inférieur de 24 % par rapport au carton blanc précédent.\n"
+  },
+  {
+    "name": "Arla-Lactose-Moyen-Gras-Lait",
+    "id": 39,
+    "price": 0.66,
+    "carbonTax": 2.08,
+    "category": "Lait",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Milk/Arla-Lactose-Medium-Fat-Milk/Arla-Lactose-Medium-Fat-Milk_Iconic.jpg",
+    "description": "Lait écrémé sans lactose à base de lait suédois d'Arlagårdar. Le produit est conçu pour les adultes et les enfants intolérants au lactose et est donc exempt de lactose. Le lait écrémé a une délicieuse saveur de lait entier et est un choix populaire pour les céréales du petit-déjeuner, le porridge ou comme boisson pour le repas. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois.\n"
+  },
+  {
+    "name": "Lait Mi-Gras Arla",
+    "id": 40,
+    "price": 1.85,
+    "carbonTax": 3.85,
+    "category": "Lait",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Milk/Arla-Medium-Fat-Milk/Arla-Medium-Fat-Milk_Iconic.jpg",
+    "description": "Lait frais écrémé à base de lait suédois d'Arlagårdar. Le lait écrémé a une délicieuse saveur de lait entier et est un choix populaire pour les céréales du petit-déjeuner, le porridge ou comme boisson pour le repas. Le lait est une source naturelle, par exemple, de protéines, de calcium et de vitamine B12. Les protéines contribuent à la construction musculaire et le calcium est nécessaire pour maintenir une structure osseuse normale. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois.\n"
+  },
+  {
+    "name": "Arla-Standard-Lait",
+    "id": 41,
+    "price": 3.72,
+    "carbonTax": 1.54,
+    "category": "Lait",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Milk/Arla-Standard-Milk/Arla-Standard-Milk_Iconic.jpg",
+    "description": "Lait standard frais fabriqué à partir de lait suédois d'Arlagårdar. Le goût est rond et plein de saveurs claires de crème. Cela le rend très bon pour le café, le thé et le chocolat. Le lait standard peut également être utilisé pour la cuisine, les baies et la bouillie. Le lait est une source naturelle, par exemple, de protéines, de calcium et de vitamine B12. Les protéines contribuent à la construction musculaire et le calcium est nécessaire pour maintenir une structure osseuse normale. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois.\n"
+  },
+  {
+    "name": "Garant-Lait-mi-gras-écologique",
+    "id": 42,
+    "price": 2.94,
+    "carbonTax": 2.36,
+    "category": "Lait",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Milk/Garant-Ecological-Medium-Fat-Milk/Garant-Ecological-Medium-Fat-Milk_Iconic.jpg",
+    "description": "Lait écrémé biologique de nos fermes suédoises KRAV. 1,5 pour cent de matières grasses. L'étiquetage biologique de Garant nous indique qu'un produit est biologique et parfois même labellisé KRAV. Notre assortiment est constamment rempli de plus de produits EKO.\n"
+  },
+  {
+    "name": "Garant-Ecological-Standard-Lait",
+    "id": 43,
+    "price": 5.36,
+    "carbonTax": 2.89,
+    "category": "Lait",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Milk/Garant-Ecological-Standard-Milk/Garant-Ecological-Standard-Milk_Iconic.jpg",
+    "description": "Lait écologique provenant de fermes suédoises labellisées KRAV.\n"
+  },
+  {
+    "name": "Oatly-Natural-Oatghurt",
+    "id": 44,
+    "price": 2.83,
+    "carbonTax": 2.53,
+    "category": "Ghourt d'avoine",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Oatghurt/Oatly-Natural-Oatghurt/Oatly-Natural-Oatghurt_Iconic.jpg",
+    "description": "Ghourt végétal entier, utilisé comme yaourt. Peut également être utilisé pour les sauces froides.\n"
+  },
+  {
+    "name": "Oatly-Avoine-Lait",
+    "id": 45,
+    "price": 5.64,
+    "carbonTax": 2.55,
+    "category": "Lait d'avoine",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Oat-Milk/Oatly-Oat-Milk/Oatly-Oat-Milk_Iconic.jpg",
+    "description": "Une boisson naturelle à base d'avoine, enrichie de calcium et de vitamines. A une longue durée de conservation et peut être conservé à température ambiante.\n"
+  },
+  {
+    "name": "Arla-crème-aigre-écologique",
+    "id": 46,
+    "price": 4.18,
+    "carbonTax": 1.29,
+    "category": "Crème aigre",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Sour-Cream/Arla-Ecological-Sour-Cream/Arla-Ecological-Sour-Cream_Iconic.jpg",
+    "description": "Crème sure labellisée KRAV à base de crème fraîche d'Arlagårdar bio suédoise. La crème sure est un vrai classique qui a sa place évidente au quotidien comme en week-end. Il a un goût acide, crémeux et frais avec une consistance légèrement crémeuse et est excellent comme accessoire naturel ou comme base dans les sauces froides et les vinaigrettes. Avec son acide frais, il adoucit la chaleur des plats épicés. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois.\n"
+  },
+  {
+    "name": "Arla-Crème Aigre",
+    "id": 47,
+    "price": 0.39,
+    "carbonTax": 3.96,
+    "category": "Crème aigre",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Sour-Cream/Arla-Sour-Cream/Arla-Sour-Cream_Iconic.jpg",
+    "description": "Crème sure à base de crème fraîche du suédois Arlagårdar. La crème sure est un vrai classique qui a sa place évidente aussi bien en semaine qu'en week-end. Il a un goût acide, crémeux et frais avec une texture légèrement crémeuse. Le produit est excellent comme accessoire naturel ou comme base dans les sauces froides et les vinaigrettes. Avec son acide frais, il adoucit la chaleur des plats épicés. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois.\n"
+  },
+  {
+    "name": "Arla-Sour-Lait",
+    "id": 48,
+    "price": 3.77,
+    "carbonTax": 2.84,
+    "category": "Lait aigre",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Sour-Milk/Arla-Sour-Milk/Arla-Sour-Milk_Iconic.jpg",
+    "description": "Lait aigre classique à base de lait suédois d'Arlagårdar. La saveur est légèrement acide avec un arôme caractéristique de lait aigre et une légère onctuosité. La texture est un peu plus épaisse et le lait caillé peut être consommé avec du muesli, des céréales, des fruits ou des baies. Le lait aigre a une longue histoire en Suède - déjà à l'époque viking, vous aviez des produits similaires au lait aigre. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois.\n"
+  },
+  {
+    "name": "Alpro-Myrtille-Soja",
+    "id": 49,
+    "price": 4.52,
+    "carbonTax": 3.65,
+    "category": "Soja",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Soyghurt/Alpro-Blueberry-Soyghurt/Alpro-Blueberry-Soyghurt_Iconic.jpg",
+    "description": "Ghourt à base de soja, utilisé comme yaourt, au goût doux de myrtille et à la texture crémeuse.\n"
+  },
+  {
+    "name": "Alpro-Vanille-Soja",
+    "id": 50,
+    "price": 3.49,
+    "carbonTax": 1.39,
+    "category": "Soja",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Soyghurt/Alpro-Vanilla-Soyghurt/Alpro-Vanilla-Soyghurt_Iconic.jpg",
+    "description": "Ghourt à base de soja, utilisé comme yaourt, avec un léger goût de vanille et une texture crémeuse.\n"
+  },
+  {
+    "name": "Alpro-Fresh-Soy-Lait",
+    "id": 51,
+    "price": 0.26,
+    "carbonTax": 3.19,
+    "category": "je suis du lait",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Soy-Milk/Alpro-Fresh-Soy-Milk/Alpro-Fresh-Soy-Milk_Iconic.jpg",
+    "description": "Boisson fraîche à base de soja, enrichie en calcium et vitamines.\n"
+  },
+  {
+    "name": "Alpro-Shelf-Soy-Lait",
+    "id": 52,
+    "price": 0.70,
+    "carbonTax": 3.22,
+    "category": "je suis du lait",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Soy-Milk/Alpro-Shelf-Soy-Milk/Alpro-Shelf-Soy-Milk_Iconic.jpg",
+    "description": "Boisson à base de soja, enrichie en calcium et vitamines. Peut être conservé à température ambiante.\n"
+  },
+  {
+    "name": "Arla-Doux-Vanille-Yaourt",
+    "id": 53,
+    "price": 4.98,
+    "carbonTax": 2.90,
+    "category": "Yaourt",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Yoghurt/Arla-Mild-Vanilla-Yoghurt/Arla-Mild-Vanilla-Yoghurt_Iconic.jpg",
+    "description": "Yaourt à la vanille doux et onctueux à base de lait suédois d'Arlagårdar. La texture est crémeuse et tendre, le goût doux et rond. Le yaourt convient bien au petit-déjeuner et aux collations pour toute la famille. Mangez-le tel quel ou avec du muesli, des flocons, des fruits et des baies. Le yaourt à la vanille est également une base parfaite pour les smoothies. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois.\n"
+  },
+  {
+    "name": "Arla-Natural-Mild-Low-Fat-Yoghourt",
+    "id": 54,
+    "price": 1.57,
+    "carbonTax": 3.25,
+    "category": "Yaourt",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Yoghurt/Arla-Natural-Mild-Low-Fat-Yoghurt/Arla-Natural-Mild-Low-Fat-Yoghurt_Iconic.jpg",
+    "description": "Yaourt allégé labellisé trou de serrure à la texture crémeuse et au goût naturel. Avec sa faible teneur en matières grasses, le yaourt est un excellent choix si vous souhaitez manger sainement sans sacrifier le bon goût. Le yaourt convient aussi bien au petit-déjeuner qu'aux collations. Mangez-le tel quel ou avec du muesli, des flocons, des fruits et des baies. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois.\n"
+  },
+  {
+    "name": "Arla-Naturel-Yaourt",
+    "id": 55,
+    "price": 2.31,
+    "carbonTax": 3.26,
+    "category": "Yaourt",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Yoghurt/Arla-Natural-Yoghurt/Arla-Natural-Yoghurt_Iconic.jpg",
+    "description": "Yaourt crémeux, légèrement plus acide avec un caractère de yaourt clair. Acide avec des souches bactériennes sélectionnées donnant un arôme de yaourt extra clair. Le yaourt est aussi bon au petit-déjeuner qu'au goûter et se marie bien avec les noix, le miel et les baies fraîches. Avec sa texture crémeuse et son acide clair, il est également idéal pour la sauce kebab, la cuisson du pain et les boissons au yaourt. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois.\n"
+  },
+  {
+    "name": "Valio-Vanille-Yaourt",
+    "id": 56,
+    "price": 3.78,
+    "carbonTax": 2.10,
+    "category": "Yaourt",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Yoghurt/Valio-Vanilla-Yoghurt/Valio-Vanilla-Yoghurt_Iconic.jpg",
+    "description": "L'original! Yaourt crémeux à la vanille original de Valio. Le yogourt est soigneusement sucré avec 30 % de sucre ajouté en moins que le yogourt aromatisé ordinaire. Idéal pour le petit-déjeuner et les collations.\n"
+  },
+  {
+    "name": "Yoggi-Fraise-Yaourt",
+    "id": 57,
+    "price": 5.51,
+    "carbonTax": 1.08,
+    "category": "Yaourt",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Yoghurt/Yoggi-Strawberry-Yoghurt/Yoggi-Strawberry-Yoghurt_Iconic.jpg",
+    "description": "Bon yaourt crémeux riche en fruits. Il est composé d'ingrédients naturels au goût doux et rond de fraise et de vanille. Yoggi original est un plaisir qui sature et donne de l'énergie quand vous le souhaitez. Le goût est tout à fait naturel et c'est le fruit qui donne au yaourt sa belle couleur. Le yaourt convient à toute la famille et se déguste au petit-déjeuner, en collation rapide ou en simple dessert. Le symbole de la boîte de lait jaune bleuâtre garantit un lait 100 % suédois.\n"
+  },
+  {
+    "name": "Yoggi-Vanille-Yaourt",
+    "id": 58,
+    "price": 2.83,
+    "carbonTax": 2.28,
+    "category": "Yaourt",
+    "categoryId": 4,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Yoghurt/Yoggi-Vanilla-Yoghurt/Yoggi-Vanilla-Yoghurt_Iconic.jpg",
+    "description": "Yaourt crémeux à base d'ingrédients naturels au goût doux et tendre de vraie vanille de Madagascar. Le yaourt, apprécié des petits comme des grands, se déguste au petit-déjeuner, en collation rapide ou en simple dessert. Il appartient à la famille d'origine Yoggi, qui est le yaourt aux fruits le plus acheté en Suède. Le symbole de la boîte de lait jaune bleuâtre garantit un lait 100 % suédois.\n"
+  },
+  {
+    "name": "Asperges",
+    "id": 59,
+    "price": 5.87,
+    "carbonTax": 2.26,
+    "category": "Asperges",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Asparagus/Asparagus_Iconic.jpg",
+    "description": "L'asperge a un goût doux et agréable et est bonne comme accessoire, ainsi que comme plat de légumes en soi. Les asperges peuvent être consommées crues, mais sont généralement cuites à l'eau bouillante dans de l'eau légèrement salée ou grillées. Les asperges fraîches se reconnaissent à la rigidité de la tige et se conservent de préférence à la température du réfrigérateur. La durée de conservation est maximale d'une semaine au réfrigérateur ou de quelques jours à température ambiante.\n"
+  },
+  {
+    "name": "Aubergine",
+    "id": 60,
+    "price": 0.17,
+    "carbonTax": 2.00,
+    "category": "Aubergine",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Aubergine/Aubergine_Iconic.jpg",
+    "description": "L'aubergine, ou l'aubergine comme on l'appelle aussi, est généralement violet foncé. Il a une peau brillante et mesure 15 à 20 cm de long. La pulpe est blanche. L'aubergine se mange toujours cuite. En complément de la Moussaka, l'Aubergine se marie bien dans les casseroles et les gratins.\n\n"
+  },
+  {
+    "name": "Choux",
+    "id": 61,
+    "price": 5.41,
+    "carbonTax": 1.85,
+    "category": "Choux",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Cabbage/Cabbage_Iconic.jpg",
+    "description": "Le chou blanc peut être utilisé comme aliment cru, mais il convient également, par exemple, aux rouleaux de chou, au pouding au chou, à la soupe aux choux, etc.\n"
+  },
+  {
+    "name": "Carottes",
+    "id": 62,
+    "price": 1.86,
+    "carbonTax": 1.48,
+    "category": "Carottes",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Carrots/Carrots_Iconic.jpg",
+    "description": "La couleur rouge orangé de la carotte provient de la forte teneur en bêta-carotène, qui dans l'organisme est converti en vitamine A. Goût, la carotte est sucrée, avec une texture croquante. Les carottes peuvent être consommées crues, et sont également utilisées dans des casseroles, des gratins, des soupes et des wok.\n"
+  },
+  {
+    "name": "Concombre",
+    "id": 63,
+    "price": 5.90,
+    "carbonTax": 2.06,
+    "category": "Concombre",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Cucumber/Cucumber_Iconic.jpg",
+    "description": "Concombre frais. S'intègre bien dans la salade ou sur le sandwich.\n"
+  },
+  {
+    "name": "Ail",
+    "id": 64,
+    "price": 5.76,
+    "carbonTax": 3.56,
+    "category": "Ail",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Garlic/Garlic_Iconic.jpg",
+    "description": "L'ail a une saveur et une odeur uniques et est un bon arôme dans les plats de pâtes, les casseroles, les mélanges, etc.\n"
+  },
+  {
+    "name": "Gingembre",
+    "id": 65,
+    "price": 5.01,
+    "carbonTax": 1.40,
+    "category": "Gingembre",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Ginger/Ginger_Iconic.jpg",
+    "description": "Le gingembre est une herbe au goût piquant caractéristique. Il est utilisé pour l'aromatisation et les accessoires, notamment dans la cuisine asiatique. Les légumes et les currys, le riz, les cornichons, la viande et le poisson sont bons pour aromatiser au gingembre. L'arôme riche s'accorde également bien avec les biscuits, les biscuits, les marmelades et les desserts sucrés.\n"
+  },
+  {
+    "name": "Poireaux",
+    "id": 66,
+    "price": 1.65,
+    "carbonTax": 1.89,
+    "category": "Poireaux",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Leek/Leek_Iconic.jpg",
+    "description": "Le poireau a une saveur d'oignon légèrement plus douce et est de préférence utilisé pour les soupes et les casseroles, mais peut également être finement râpé dans une salade. C'est principalement la partie blanche qui est utilisée, bien qu'il soit bon de manger les feuilles vertes.\n"
+  },
+  {
+    "name": "Brun-Cap-Champignon",
+    "id": 67,
+    "price": 4.06,
+    "carbonTax": 1.27,
+    "category": "Champignon",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Mushroom/Brown-Cap-Mushroom/Brown-Cap-Mushroom_Iconic.jpg",
+    "description": "Le champignon forestier est aussi appelé champignon châtaignier, et est un champignon brun avec une saveur plus complète que les champignons blancs. Il peut être consommé cru dans des salades par exemple, mais est également bon à bouillir, à poêler ou à frire.\n"
+  },
+  {
+    "name": "Oignon jaune",
+    "id": 68,
+    "price": 1.29,
+    "carbonTax": 3.93,
+    "category": "Oignon",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Onion/Yellow-Onion/Yellow-Onion_Iconic.jpg",
+    "description": "L'oignon jaune est un bon arôme. Convient aussi bien au froid qu'au chaud en cuisine.\n"
+  },
+  {
+    "name": "Poivron vert",
+    "id": 69,
+    "price": 4.47,
+    "carbonTax": 1.11,
+    "category": "Poivre",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Pepper/Green-Bell-Pepper/Green-Bell-Pepper_Iconic.jpg",
+    "description": "Il existe une variété de couleurs de poivrons. Les plus courants sont le vert, le jaune, l'orange, le rouge et le blanc. Le paprika commence toujours vert, mais change de couleur lorsqu'il devient plus mûr. Un poivron vert est un poivron vert et donc un peu plus ferme que les autres, ce qui le rend adapté aux plats chauds, par exemple chili con carne, tartes, gratins et casseroles diverses.\n"
+  },
+  {
+    "name": "Orange-Poivron",
+    "id": 70,
+    "price": 2.05,
+    "carbonTax": 1.99,
+    "category": "Poivre",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Pepper/Orange-Bell-Pepper/Orange-Bell-Pepper_Iconic.jpg",
+    "description": "Le poivre orange est plus doux que le vert. Il contient également plus de vitamines et d'antioxydants que le vert. Les poivrons sont bons à manger crus dans les salades et comme garniture, mais sont également bons à frire, à mijoter ou à gratiner, par exemple avec une garniture. Le paprika s'intègre également bien dans les pots, les gratins et les tartes.\n"
+  },
+  {
+    "name": "Poivron rouge",
+    "id": 71,
+    "price": 4.61,
+    "carbonTax": 3.37,
+    "category": "Poivre",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Pepper/Red-Bell-Pepper/Red-Bell-Pepper_Iconic.jpg",
+    "description": "Les poivrons rouges sont beaucoup plus sucrés que les verts. Il contient également plus de vitamines et d'antioxydants que le vert. Les poivrons sont bons à manger crus en salade et en garniture, mais sont aussi bons à frire, mijoter ou gratiner, par exemple. avec remplissage. Le paprika s'intègre également bien dans les pots, les gratins et les tartes.\n"
+  },
+  {
+    "name": "Poivron-jaune",
+    "id": 72,
+    "price": 0.17,
+    "carbonTax": 2.59,
+    "category": "Poivre",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Pepper/Yellow-Bell-Pepper/Yellow-Bell-Pepper_Iconic.jpg",
+    "description": "Le poivron jaune est beaucoup plus sucré que le vert. Il contient également plus de vitamines et d'antioxydants que le vert. Les poivrons sont bons à manger crus dans les salades et comme garniture, mais sont également bons à frire, à mijoter ou à gratiner, par exemple avec une garniture. Le paprika s'intègre également bien dans les pots, les gratins et les tartes.\n"
+  },
+  {
+    "name": "Farine-Pomme De Terre",
+    "id": 73,
+    "price": 1.06,
+    "carbonTax": 1.54,
+    "category": "Pomme de terre",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Potato/Floury-Potato/Floury-Potato_Iconic.jpg",
+    "description": "Pommes de terre farineuses. Extra bon pour la purée de pommes de terre et pour presser.\n"
+  },
+  {
+    "name": "Pomme de terre solide",
+    "id": 74,
+    "price": 4.97,
+    "carbonTax": 1.07,
+    "category": "Pomme de terre",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Potato/Solid-Potato/Solid-Potato_Iconic.jpg",
+    "description": "Pommes de terre solides. Une bonne pomme de terre polyvalente qui s'adapte bien la plupart du temps.\n"
+  },
+  {
+    "name": "Patate douce",
+    "id": 75,
+    "price": 2.25,
+    "carbonTax": 2.29,
+    "category": "Pomme de terre",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Potato/Sweet-Potato/Sweet-Potato_Iconic.jpg",
+    "description": "Les patates douces sont des tubercules oblongs de forme irrégulière, souvent légèrement plus gros que les pommes de terre ordinaires. La peau est brun clair ou rouge. Il existe deux variétés, une à pulpe légère et une à pulpe jaune orangé. Les patates douces sont utilisées comme des pommes de terre ordinaires, mais le goût est très différent. La patate douce est très sucrée et un peu plus molle que les pommes de terre ordinaires. Il peut également être utilisé dans les desserts, les tartes et les gâteaux.\n"
+  },
+  {
+    "name": "Betterave rouge",
+    "id": 76,
+    "price": 1.63,
+    "carbonTax": 2.22,
+    "category": "Betterave rouge",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Red-Beet/Red-Beet_Iconic.jpg",
+    "description": "Les betteraves rouges ont un goût terreux et sucré et sont souvent consommées en accompagnement, cuites ou conservées, par exemple, en pölsa, pyttipanna ou steak Lindström. Il est également courant de faire du Borstj, une soupe de betterave rouge, mais la betterave peut également être râpée comme aliment cru. Les betteraves rouges sont peu sensibles à la chaleur, aux engelures et à la déshydratation et doivent donc être conservées au frais.\n\n"
+  },
+  {
+    "name": "Boeuf-Tomate",
+    "id": 77,
+    "price": 1.58,
+    "carbonTax": 2.43,
+    "category": "Tomate",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Tomato/Beef-Tomato/Beef-Tomato_Iconic.jpg",
+    "description": "Une tomate extra large qui convient bien pour les hamburgers et sur le gril ou au four.\n"
+  },
+  {
+    "name": "Régulier-Tomate",
+    "id": 78,
+    "price": 0.50,
+    "carbonTax": 2.86,
+    "category": "Tomate",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Tomato/Regular-Tomato/Regular-Tomato_Iconic.jpg",
+    "description": "Tomates rondes et fines de Suède. Rincer et disposer dans la salade ou sur le sandwich.\n"
+  },
+  {
+    "name": "Vigne-Tomate",
+    "id": 79,
+    "price": 3.59,
+    "carbonTax": 3.01,
+    "category": "Tomate",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Tomato/Vine-Tomato/Vine-Tomato_Iconic.jpg",
+    "description": "Tomates rondes avec vignes dans l'emballage. Rincer et disposer dans la salade ou sur le sandwich.\n"
+  },
+  {
+    "name": "Courgette",
+    "id": 80,
+    "price": 0.02,
+    "carbonTax": 1.97,
+    "category": "Courgette",
+    "categoryId": 2,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Zucchini/Zucchini_Iconic.jpg",
+    "description": "Les courgettes peuvent être consommées crues, mais sont généralement utilisées dans les soupes, les casseroles, les ragoûts, etc.\n"
+  },
+  {
+    "name": "Doré-Délicieux",
+    "id": 81,
+    "price": 5.49,
+    "carbonTax": 1.79,
+    "category": "Pomme",
+    "categoryId": 1,
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Apple/Golden-Delicious/Golden-Delicious_Iconic.jpg",
+    "description": "Golden Delicious a une pulpe blanche juteuse et une coque jaune verdâtre. Le goût est doux et sucré, ce qui rend la Golden Delicious idéale pour les desserts.\n"
+  }
+]

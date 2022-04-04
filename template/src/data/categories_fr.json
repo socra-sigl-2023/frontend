@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Fruits",
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Apple/Red-Delicious/Red-Delicious_Iconic.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Légumes",
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Cucumber/Cucumber_Iconic.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jus",
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Juice/Bravo-Apple-Juice/Bravo-Apple-Juice_Iconic.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Produit laitiers",
+    "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Yoghurt/Arla-Natural-Mild-Low-Fat-Yoghurt/Arla-Natural-Mild-Low-Fat-Yoghurt_Iconic.jpg"
+  }
+]

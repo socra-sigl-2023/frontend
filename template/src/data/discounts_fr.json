@@ -1,0 +1,47 @@
+
+[
+    {
+        "name": "Dame rose",
+        "id": 2,
+        "price": 4.37,
+        "carbonTax": 1.83,
+        "category": "Pomme",
+        "categoryId": 1,
+        "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Fruit/Apple/Pink-Lady/Pink-Lady_Iconic.jpg",
+        "description": "Pink Lady rappelle la Royal Gala, même si c'est une pomme encore plus sucrée et croustillante.\n",
+        "discount": 3.72
+      },
+      {
+        "name": "Oignon jaune",
+        "id": 68,
+        "price": 1.29,
+        "carbonTax": 3.93,
+        "category": "Oignon",
+        "categoryId": 2,
+        "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Onion/Yellow-Onion/Yellow-Onion_Iconic.jpg",
+        "description": "L'oignon jaune est un bon arôme. Convient aussi bien au froid qu'au chaud en cuisine.\n",
+        "discount": 0.98
+      },
+      {
+        "name": "Pomme de terre solide",
+        "id": 74,
+        "price": 4.97,
+        "carbonTax": 1.07,
+        "category": "Pomme de terre",
+        "categoryId": 2,
+        "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Vegetables/Potato/Solid-Potato/Solid-Potato_Iconic.jpg",
+        "description": "Pommes de terre solides. Une bonne pomme de terre polyvalente qui s'adapte bien la plupart du temps.\n",
+        "discount": 4.32
+      },
+      {
+        "name": "Lait Mi-Gras Arla",
+        "id": 40,
+        "price": 1.85,
+        "carbonTax": 3.85,
+        "category": "Lait",
+        "categoryId": 4,
+        "image": "https://raw.githubusercontent.com/marcusklasson/GroceryStoreDataset/master/dataset/iconic-images-and-descriptions/Packages/Milk/Arla-Medium-Fat-Milk/Arla-Medium-Fat-Milk_Iconic.jpg",
+        "description": "Lait frais écrémé à base de lait suédois d'Arlagårdar. Le lait écrémé a une délicieuse saveur de lait entier et est un choix populaire pour les céréales du petit-déjeuner, le porridge ou comme boisson pour le repas. Le lait est une source naturelle, par exemple, de protéines, de calcium et de vitamine B12. Les protéines contribuent à la construction musculaire et le calcium est nécessaire pour maintenir une structure osseuse normale. La marque Arla Ko garantit que le produit est composé à 100% de lait suédois.\n",
+        "discount": 1.57
+      }
+]
