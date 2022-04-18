@@ -2049,13 +2049,15 @@ Add to the following elements in your React components:
 - `frontend/src/ProductCard.js`:
   - add 
     ```jsx
+    // 'id' being the product id
     socra={`add-product-${id}`}
     ```
     to the AddToBasket's button
 - `frontend/src/Navigation.js`:
   - add
     ```jsx
-    socra={name}
+    // 'to' being the navigation's link value ('/', 'orders' or 'basket')
+    socra={to}
     ```
     to the `<li />` element of `MenuItem` React component
   - add 
